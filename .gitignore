@@ -2,10 +2,7 @@
 *.ao
 *.so
 *.pyc
-._*
 .nfs.*
-[568a].out
-*~
 *.orig
 *.rej
 *.exe
@@ -17,7 +14,6 @@ _testmain.go
 test.out
 build.out
 doc/htmlgen
-src/pkg/*.googlecode.com/
 test/pass.out
 test/run.out
 test/times.out
