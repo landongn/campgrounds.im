@@ -3,6 +3,15 @@ $experimental-support-for-khtml: false !default;
 $legacy-support-for-ie6: false !default;
 $legacy-support-for-ie7: false !default;
 
+
+$color-blue: #1E4147;
+$color-lightgreen: #437356;
+$color-brightgreen: #AAC789;
+$color-cream: #FAE3B4;
+$color-red: #F34A53;
+
+$color-text: $color-cream;
+
 @import
 	"../lib/caboose/caboose",
 	"../lib/caboose/src/caboose/reset",
@@ -17,4 +26,5 @@ $legacy-support-for-ie7: false !default;
 	"base/header",
 	"base/footer",
 
+	"views/auth",
 	"views/home";
